@@ -2,5 +2,13 @@
 
 class Sample2
 {
-    public static void 
+    public static void Main()
+    {
+        Form fm;
+        fm = new Form();
+
+        fm.Text = "ようこそC#へ！";
+
+        Application.Run(fm);
+    }
 }
